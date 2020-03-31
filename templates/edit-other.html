@@ -1,0 +1,28 @@
+<form method="POST" action="/update/other/{{entity._id}}">
+    <table>
+        <tr>
+            <td>_id</td>
+            <td>{{entity._id}}</td>
+        </tr>
+        <tr>
+            <td>word</td>
+            <td><input required id="word" name="word" value="{{entity.word}}" /></td>
+        </tr>
+        <tr>
+            <td>extra</td>
+            <td><input name="extra" value="{{entity.extra}}" /></td>
+        </tr>
+        <tr>
+            <td>image URL</td>
+            <td><input name="imageURL" value="{{entity.imageURL}}" /></td>
+        </tr>
+        <tr>
+            <td>alt</td>
+            <td><input name="alt" value="{{entity.alt}}" /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Update"></td>
+        </tr>
+    </table>
+</form>

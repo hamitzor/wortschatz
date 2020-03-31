@@ -1,0 +1,44 @@
+<form method="POST" action="/update/verb/{{entity._id}}">
+    <table>
+        <tr>
+            <td>_id</td>
+            <td>{{entity._id}}</td>
+        </tr>
+        <tr>
+            <td>präsens</td>
+            <td><input required name="praesens" value="{{entity.praesens}}" /></td>
+        </tr>
+        <tr>
+            <td>du</td>
+            <td><input name="du" value="{{entity.du}}" /></td>
+        </tr>
+        <tr>
+            <td>er/sie/es</td>
+            <td><input name="er" value="{{entity.er}}" /></td>
+        </tr>
+        <tr>
+            <td>hilfsverb</td>
+            <td><input required name="hilfsverb" value="{{entity.hilfsverb}}" /></td>
+        </tr>
+        <tr>
+            <td>partizip ii</td>
+            <td><input required name="partizip2" value="{{entity.partizip2}}" /></td>
+        </tr>
+        <tr>
+            <td>präteritum</td>
+            <td><input name="praeteritum" value="{{entity.praeteritum}}" /></td>
+        </tr>
+        <tr>
+            <td>image URL</td>
+            <td><input name="imageURL" value="{{entity.imageURL}}" /></td>
+        </tr>
+        <tr>
+            <td>alt</td>
+            <td><input name="alt" value="{{entity.alt}}" /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Update"></td>
+        </tr>
+    </table>
+</form>

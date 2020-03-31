@@ -1,0 +1,50 @@
+{
+	"collections": {
+		"noun": [
+			{
+				"_id": "Schrank",
+				"article": "der",
+				"singular": "Schrank",
+				"plural": "Schränke",
+				"imageURL": "https://cdn.pixabay.com/photo/2014/12/21/23/51/armoire-576194_960_720.png",
+				"createdAt": "2020-03-31T16:02:05.076Z",
+				"updatedAt": "2020-03-31T16:25:24.445Z"
+			},
+			{
+				"_id": "Haus",
+				"article": "das",
+				"singular": "Haus",
+				"plural": "Häuser",
+				"imageURL": "https://pngimg.com/uploads/house/house_PNG74.png",
+				"createdAt": "2020-03-31T15:30:35.478Z",
+				"updatedAt": "2020-03-31T16:39:10.694Z"
+			}
+		],
+		"verb": [
+			{
+				"_id": "sehen",
+				"praesens": "sehen",
+				"du": "siehst",
+				"er": "sieht",
+				"hilfsverb": "hat",
+				"partizip2": "gesehen",
+				"praeteritum": "sah",
+				"imageURL": "",
+				"alt": "to see",
+				"createdAt": "2020-03-31T17:28:39.779Z",
+				"updatedAt": "2020-03-31T17:45:01.679Z"
+			}
+		],
+		"other": [
+			{
+				"_id": "sonst",
+				"word": "sonst",
+				"extra": "",
+				"imageURL": "",
+				"alt": "otherwise",
+				"createdAt": "2020-03-31T17:38:43.631Z",
+				"updatedAt": "2020-03-31T17:38:43.631Z"
+			}
+		]
+	}
+}

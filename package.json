@@ -1,0 +1,17 @@
+{
+  "name": "wortschatz",
+  "version": "1.0.0",
+  "description": "A useful web application to learn new words in German",
+  "main": "src/index.js",
+  "author": "Hamit Zor <thenrerise@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "template7": "^1.4.2",
+    "underscore": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

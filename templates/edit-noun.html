@@ -1,0 +1,32 @@
+<form method="POST" action="/update/noun/{{entity._id}}">
+    <table>
+        <tr>
+            <td>_id</td>
+            <td>{{entity._id}}</td>
+        </tr>
+        <tr>
+            <td>article</td>
+            <td><input required name="article" value="{{entity.article}}" /></td>
+        </tr>
+        <tr>
+            <td>singular</td>
+            <td><input required name="singular" value="{{entity.singular}}" /></td>
+        </tr>
+        <tr>
+            <td>plural</td>
+            <td><input name="plural" value="{{entity.plural}}" /></td>
+        </tr>
+        <tr>
+            <td>image URL</td>
+            <td><input name="imageURL" value="{{entity.imageURL}}" /></td>
+        </tr>
+        <tr>
+            <td>alt</td>
+            <td><input name="alt" value="{{entity.alt}}" /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Update"></td>
+        </tr>
+    </table>
+</form>

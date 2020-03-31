@@ -1,0 +1,32 @@
+<div class="links">
+    <a href="/word/edit/verb/{{entity._id}}">Edit</a>
+    <a href="/delete/verb/{{entity._id}}">Delete</a>
+    <a href="/list/verb">All Verbs</a>
+    <a href="/list/noun">All Nouns</a>
+    <a href="/list/other">All Others</a>
+</div>
+<div class="container color-{{entity.article}} color-hidden">
+    <div class="image image-hidden">
+        <img src="{{entity.imageURL}}">
+        <div class="alt">{{entity.alt}}</div>
+    </div>
+    <div class="text">
+        <table>
+            <tr>
+                <td>{{entity.praesens}}</td>
+            </tr>
+            <tr>
+                {{#if entity.du}}<td class="text-hidden">du {{entity.du}}</td>{{/if}}
+            </tr>
+            <tr>
+                {{#if entity.er}}<td class="text-hidden">er {{entity.er}}</td>{{/if}}
+            </tr>
+            <tr>
+                <td class="text-hidden">{{entity.hilfsverb}} {{entity.partizip2}}</td>
+            </tr>
+            <tr>
+                {{#if entity.praeteritum}}<td class="text-hidden">{{entity.praeteritum}}</td>{{/if}}
+            </tr>
+        </table>
+    </div>
+</div>

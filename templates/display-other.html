@@ -1,0 +1,23 @@
+<div class="links">
+    <a href="/word/edit/other/{{entity._id}}">Edit</a>
+    <a href="/delete/other/{{entity._id}}">Delete</a>
+    <a href="/list/other">All Others</a>
+    <a href="/list/noun">All Nouns</a>
+    <a href="/list/verb">All Verbs</a>
+</div>
+<div class="container color-{{entity.article}} color-hidden">
+    <div class="image image-hidden">
+        <img src="{{entity.imageURL}}">
+        <div class="alt">{{entity.alt}}</div>
+    </div>
+    <div class="text">
+        <table>
+            <tr>
+                <td>{{entity.word}}</td>
+            </tr>
+            <tr>
+                {{#if entity.extra}}<td>du {{entity.extra}}</td>{{/if}}
+            </tr>
+        </table>
+    </div>
+</div>
