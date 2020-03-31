@@ -1,14 +1,14 @@
 div.container{
     font-size: 62px;
     display: flex;
-    color: rgb(31, 31, 31);
+    color: white;
     height: 100vh;
 }
 div.image{
     display: flex;
     align-items: center;
     justify-items: center;
-    width: 40%;
+    width: 30%;
     padding-left: 15%;
     font-size: 30px;
 }
@@ -19,7 +19,7 @@ div.text{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    width: 60%;
     padding-left: 10%;
 }
 table{
@@ -30,22 +30,22 @@ table td{
     padding-bottom: 15px;
 }
 div.color-der{
-    background-color: rgb(54, 175, 255);
+    background-color: rgb(36, 65, 148);
 }
 div.color-die{
-    background-color: rgb(255, 114, 114);
+    background-color: rgb(158, 70, 83);
 }
 div.color-das{
-    background-color: #86c91a;
+    background-color: #6a8e30;
 }
 div.color-hidden{
-    background-color: white;
+    background-color: rgb(80, 80, 80);
 }
 div.color-plural{
-    background-color: #e8ff68;
+    background-color: #988f23;
 }
 .text-hidden{
-    width: 120px;
+    width: 130px;
     overflow: hidden;
     display: inline-block;
     filter: blur(15px);
@@ -59,4 +59,8 @@ div.links{
     position: absolute;
     bottom:0;
     right:0;
+}
+div.links a{
+    display: inline-block;
+    margin-left: 20px;
 }

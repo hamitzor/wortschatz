@@ -2,6 +2,8 @@ const database = require('./database');
 const { createView } = require('./util');
 const view = createView('layout');
 const _ = require('underscore');
+const randomNumber = require("random-number-csprng");
+
 exports.add = function (req, res) {
     const { collection } = req.params;
     try {
@@ -68,10 +70,21 @@ exports.listView = function (req, res) {
 };
 exports.randomView = function (req, res) {
     const { collection } = req.params;
-    res.send(view(`display-${collection}`)({
-        collection,
-        entity: _.sample(database.findAll(collection)),
-        cssList: ['core', `display-${collection}`],
-        jsList: [`display`]
-    }));
+    const list = database.findAll(collection);
+    if (list.length > 1)
+        randomNumber(0, list.length - 1).then(num => {
+            res.send(view(`display-${collection}`)({
+                collection,
+                entity: list[num],
+                cssList: ['core', `display-${collection}`],
+                jsList: [`display`]
+            }));
+        });
+    else
+        res.send(view(`display-${collection}`)({
+            collection,
+            entity: list[0],
+            cssList: ['core', `display-${collection}`],
+            jsList: [`display`]
+        }));
 };

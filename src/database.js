@@ -54,7 +54,6 @@ const database = {
     findOne: function (collection, _id) {
         this.read();
         this.collectionExists(collection);
-        console.log(this.content.collections[collection], _id);
         return _.findWhere(this.content.collections[collection], { _id });
     }
 };

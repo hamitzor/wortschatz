@@ -2,7 +2,7 @@ div.container{
     font-size: 62px;
     display: flex;
     color: rgb(255, 255, 255);
-    background-color: rgb(68, 68, 68);
+    background-color: rgb(80, 80, 80);
     height: 100vh;
 }
 div.image{
@@ -45,4 +45,8 @@ div.links{
     position: absolute;
     bottom:0;
     right:0;
+}
+div.links a{
+    display: inline-block;
+    margin-left: 20px;
 }
