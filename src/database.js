@@ -3,7 +3,7 @@ const _ = require('underscore');
 const path = require('path');
 
 const database = {
-    init: function (databaseFile = path.resolve(__dirname, '.database.json')) {
+    init: function (databaseFile) {
         this.databaseFile = databaseFile;
         if (!fs.existsSync(databaseFile)) {
             this.content = { collections: { noun: [], verb: [], other: [] } };
