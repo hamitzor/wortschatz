@@ -16,7 +16,7 @@ exports.init = (port = 4000) => {
     app.get('/word/edit/:collection/:_id', controllers.editView);
     app.get('/word/add/:collection', controllers.addView);
     app.get('/list/:collection/', controllers.listView);
-    app.get('/', controllers.randomView);
+    app.get('/', (req, res) => res.redirect('/word/random/noun'));
     database.init();
     app.listen(port, () => console.log(`Listening at http://localhost:${port}`));
 }
