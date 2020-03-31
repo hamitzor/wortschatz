@@ -6,7 +6,7 @@ exports.add = function (req, res) {
     const { collection } = req.params;
     try {
         database.add(collection, req.body);
-        res.redirect(`/word/display/${collection}/${req.body._id}`);
+        res.redirect(`/word/add/${collection}`);
     }
     catch (err) {
         res.send({ status: 'ERROR', err });
