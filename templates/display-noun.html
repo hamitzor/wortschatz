@@ -5,7 +5,7 @@
     <a href="/list/verb">All Verbs</a>
     <a href="/list/other">All Others</a>
 </div>
-<div class="container color-{{entity.article}} color-hidden">
+<div class="container color-{{entity.article}} color-hidden {{#unless entity.singular}}color-plural{{/unless}}">
     <div class="image image-hidden">
         <img src="{{entity.imageURL}}">
         <div class="alt">{{entity.alt}}</div>
@@ -13,12 +13,16 @@
     <div class="text">
         <table>
             <tr>
+                {{#if entity.singular}}
                 <td class="text-hidden article">{{entity.article}}</td>
                 <td>{{entity.singular}}</td>
+                {{/if}}
             </tr>
             <tr>
+                {{#if entity.plural}}
                 <td>die</td>
-                <td class="text-hidden">{{entity.plural}}</td>
+                <td class="{{#if entity.singular}}text-hidden{{/if}}">{{entity.plural}}</td>
+                {{/if}}
             </tr>
         </table>
     </div>

@@ -2,22 +2,384 @@
 	"collections": {
 		"noun": [
 			{
-				"_id": "Schrank",
-				"article": "der",
-				"singular": "Schrank",
-				"plural": "Schränke",
-				"imageURL": "https://cdn.pixabay.com/photo/2014/12/21/23/51/armoire-576194_960_720.png",
-				"createdAt": "2020-03-31T16:02:05.076Z",
-				"updatedAt": "2020-03-31T16:25:24.445Z"
+				"_id": "Frau",
+				"article": "die",
+				"singular": "Frau",
+				"plural": "Frauen",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:10:38.959Z",
+				"updatedAt": "2020-03-31T19:10:38.959Z"
 			},
 			{
-				"_id": "Haus",
+				"_id": "Herr",
+				"article": "der",
+				"singular": "Herr",
+				"plural": "Herren",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:10:56.060Z",
+				"updatedAt": "2020-03-31T19:10:56.060Z"
+			},
+			{
+				"_id": "Name",
+				"article": "der",
+				"singular": "Name",
+				"plural": "Namen",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:11:06.708Z",
+				"updatedAt": "2020-03-31T19:11:06.708Z"
+			},
+			{
+				"_id": "Vorname",
+				"article": "der",
+				"singular": "Vorname",
+				"plural": "Vornamen",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:11:15.167Z",
+				"updatedAt": "2020-03-31T19:11:15.167Z"
+			},
+			{
+				"_id": "Familienname",
+				"article": "der",
+				"singular": "Familienname",
+				"plural": "Familiennamen",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:11:27.664Z",
+				"updatedAt": "2020-03-31T19:11:27.664Z"
+			},
+			{
+				"_id": "Land",
 				"article": "das",
-				"singular": "Haus",
-				"plural": "Häuser",
-				"imageURL": "https://pngimg.com/uploads/house/house_PNG74.png",
-				"createdAt": "2020-03-31T15:30:35.478Z",
-				"updatedAt": "2020-03-31T16:39:10.694Z"
+				"singular": "Land",
+				"plural": "Länder",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:12:06.245Z",
+				"updatedAt": "2020-03-31T19:12:06.245Z"
+			},
+			{
+				"_id": "Alphabet",
+				"article": "das",
+				"singular": "Alphabet",
+				"plural": "Alphabete",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:12:45.122Z",
+				"updatedAt": "2020-03-31T19:12:45.122Z"
+			},
+			{
+				"_id": "Arbeitgeber",
+				"article": "der",
+				"singular": "Arbeitgeber",
+				"plural": "Arbeitgeber",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:13:28.297Z",
+				"updatedAt": "2020-03-31T19:13:28.297Z"
+			},
+			{
+				"_id": "Ausbildung",
+				"article": "die",
+				"singular": "Ausbildung",
+				"plural": "Ausbildungen",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:13:37.893Z",
+				"updatedAt": "2020-03-31T19:13:37.893Z"
+			},
+			{
+				"_id": "Beruf",
+				"article": "der",
+				"singular": "Beruf",
+				"plural": "Berufe",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:13:51.710Z",
+				"updatedAt": "2020-03-31T19:13:51.710Z"
+			},
+			{
+				"_id": "Hochschule",
+				"article": "die",
+				"singular": "Hochschule",
+				"plural": "Hochschulen",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:14:26.746Z",
+				"updatedAt": "2020-03-31T19:14:26.746Z"
+			},
+			{
+				"_id": "Universität",
+				"article": "die",
+				"singular": "Universität",
+				"plural": "Universitäten",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:15:07.575Z",
+				"updatedAt": "2020-03-31T19:15:07.575Z"
+			},
+			{
+				"_id": "Job",
+				"article": "der",
+				"singular": "Job",
+				"plural": "Jobs",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:15:21.962Z",
+				"updatedAt": "2020-03-31T19:15:21.962Z"
+			},
+			{
+				"_id": "Praktikum",
+				"article": "der",
+				"singular": "Praktikum",
+				"plural": "Praktika",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:15:44.826Z",
+				"updatedAt": "2020-03-31T19:15:44.826Z"
+			},
+			{
+				"_id": "Schule",
+				"article": "die",
+				"singular": "Schule",
+				"plural": "Schulen",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:15:51.522Z",
+				"updatedAt": "2020-03-31T19:15:51.522Z"
+			},
+			{
+				"_id": "Stelle",
+				"article": "die",
+				"singular": "Stelle",
+				"plural": "Stellen",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:15:57.325Z",
+				"updatedAt": "2020-03-31T19:15:57.325Z"
+			},
+			{
+				"_id": "Architekt",
+				"article": "der",
+				"singular": "Architekt",
+				"plural": "Architekten",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:16:30.902Z",
+				"updatedAt": "2020-03-31T19:16:30.902Z"
+			},
+			{
+				"_id": "Arzt",
+				"article": "der",
+				"singular": "Arzt",
+				"plural": "Ärzte",
+				"imageURL": "http://pngimg.com/uploads/doctor/doctor_PNG16042.png",
+				"alt": "",
+				"createdAt": "2020-03-31T19:17:58.275Z",
+				"updatedAt": "2020-03-31T19:17:58.275Z"
+			},
+			{
+				"_id": "Friseur",
+				"article": "der",
+				"singular": "Friseur",
+				"plural": "Friseure",
+				"imageURL": "data:image/jpeg;base64,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",
+				"alt": "",
+				"createdAt": "2020-03-31T19:18:44.634Z",
+				"updatedAt": "2020-03-31T19:18:44.634Z"
+			},
+			{
+				"_id": "Ingenieur",
+				"article": "der",
+				"singular": "Ingenieur",
+				"plural": "Ingenieure",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:19:46.251Z",
+				"updatedAt": "2020-03-31T19:19:46.251Z"
+			},
+			{
+				"_id": "Journalist",
+				"article": "der",
+				"singular": "Journalist",
+				"plural": "Journalisten",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:20:02.488Z",
+				"updatedAt": "2020-03-31T19:20:02.488Z"
+			},
+			{
+				"_id": "Kellner",
+				"article": "der",
+				"singular": "Kellner",
+				"plural": "Kellner",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:20:14.019Z",
+				"updatedAt": "2020-03-31T19:20:14.019Z"
+			},
+			{
+				"_id": "Krankenschwester",
+				"article": "die",
+				"singular": "Krankenschwester",
+				"plural": "Krankenschwestern",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:20:37.866Z",
+				"updatedAt": "2020-03-31T19:20:37.866Z"
+			},
+			{
+				"_id": "Lehrer",
+				"article": "der",
+				"singular": "Lehrer",
+				"plural": "Lehrer",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:20:56.423Z",
+				"updatedAt": "2020-03-31T19:20:56.423Z"
+			},
+			{
+				"_id": "Mechatroniker",
+				"article": "der",
+				"singular": "Mechatroniker",
+				"plural": "Mechatroniker",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:21:22.708Z",
+				"updatedAt": "2020-03-31T19:21:22.708Z"
+			},
+			{
+				"_id": "Student",
+				"article": "der",
+				"singular": "Student",
+				"plural": "Studenten",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:21:29.482Z",
+				"updatedAt": "2020-03-31T19:21:29.482Z"
+			},
+			{
+				"_id": "Schauspieler",
+				"article": "der",
+				"singular": "Schauspieler",
+				"plural": "Schauspieler",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:21:43.938Z",
+				"updatedAt": "2020-03-31T19:21:43.938Z"
+			},
+			{
+				"_id": "Schüler",
+				"article": "der",
+				"singular": "Schüler",
+				"plural": "Schüler",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:21:53.036Z",
+				"updatedAt": "2020-03-31T19:21:53.036Z"
+			},
+			{
+				"_id": "Sekretär",
+				"article": "der",
+				"singular": "Sekretär",
+				"plural": "Sekretäre",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:22:05.036Z",
+				"updatedAt": "2020-03-31T19:22:05.036Z"
+			},
+			{
+				"_id": "Verkäufer",
+				"article": "der",
+				"singular": "Verkäufer",
+				"plural": "Verkäufer",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:22:26.747Z",
+				"updatedAt": "2020-03-31T19:22:26.747Z"
+			},
+			{
+				"_id": "Alter",
+				"article": "das",
+				"singular": "Alter",
+				"plural": "",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:22:37.643Z",
+				"updatedAt": "2020-03-31T19:22:37.643Z"
+			},
+			{
+				"_id": "Familienstand",
+				"article": "der",
+				"singular": "Familienstand",
+				"plural": "",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:23:09.377Z",
+				"updatedAt": "2020-03-31T19:23:09.377Z"
+			},
+			{
+				"_id": "Jahr",
+				"article": "das",
+				"singular": "Jahr",
+				"plural": "Jahre",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:23:27.844Z",
+				"updatedAt": "2020-03-31T19:23:27.844Z"
+			},
+			{
+				"_id": "Kind",
+				"article": "das",
+				"singular": "Kind",
+				"plural": "Kinder",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:23:36.119Z",
+				"updatedAt": "2020-03-31T19:23:36.119Z"
+			},
+			{
+				"_id": "Familie",
+				"article": "die",
+				"singular": "Familie",
+				"plural": "Familien",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:24:00.027Z",
+				"updatedAt": "2020-03-31T19:24:00.027Z"
+			},
+			{
+				"_id": "Vater",
+				"article": "der",
+				"singular": "Vater",
+				"plural": "Väter",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:24:07.162Z",
+				"updatedAt": "2020-03-31T19:24:07.162Z"
+			},
+			{
+				"_id": "Mutter",
+				"article": "die",
+				"singular": "Mutter",
+				"plural": "Mütter",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:24:16.050Z",
+				"updatedAt": "2020-03-31T19:24:16.050Z"
+			},
+			{
+				"_id": "Eltern",
+				"article": "die",
+				"singular": "",
+				"plural": "Eltern",
+				"imageURL": "",
+				"alt": "",
+				"createdAt": "2020-03-31T19:26:34.710Z",
+				"updatedAt": "2020-03-31T19:26:34.710Z"
 			}
 		],
 		"verb": [

@@ -41,7 +41,13 @@ div.color-das{
 div.color-hidden{
     background-color: white;
 }
+div.color-plural{
+    background-color: #e8ff68;
+}
 .text-hidden{
+    width: 120px;
+    overflow: hidden;
+    display: inline-block;
     filter: blur(15px);
     cursor: help;
 }

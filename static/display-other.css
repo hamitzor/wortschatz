@@ -34,6 +34,9 @@ table td{
     padding-bottom: 15px;
 }
 .text-hidden{
+    width: 150px;
+    overflow: hidden;
+    display: inline-block;
     filter: blur(15px);
     cursor: help;
 }
