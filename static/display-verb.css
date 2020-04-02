@@ -50,3 +50,6 @@ div.links a{
     display: inline-block;
     margin-left: 20px;
 }
+.invisible{
+    opacity: 0;
+}

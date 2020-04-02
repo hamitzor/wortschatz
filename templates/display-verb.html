@@ -12,21 +12,28 @@
     </div>
     <div class="text">
         <table>
-            <tr>
-                <td>{{entity.praesens}}</td>
-            </tr>
-            <tr>
-                {{#if entity.du}}<td class="text-hidden">du {{entity.du}}</td>{{/if}}
-            </tr>
-            <tr>
-                {{#if entity.er}}<td class="text-hidden">er {{entity.er}}</td>{{/if}}
-            </tr>
-            <tr>
-                <td class="text-hidden">{{entity.hilfsverb}} {{entity.partizip2}}</td>
-            </tr>
-            <tr>
-                {{#if entity.praeteritum}}<td class="text-hidden">{{entity.praeteritum}}</td>{{/if}}
-            </tr>
+            <thead>
+                <tr>
+                    <td>{{entity.infinitiv}}</td>
+                </tr>
+            </thead>
+            <tbody class="invisible">
+                <tr>
+                    {{#if entity.ich}}<td>ich <span class="text-hidden">{{entity.ich}}</span></td>{{/if}}
+                </tr>
+                <tr>
+                    {{#if entity.du}}<td>du <span class="text-hidden">{{entity.du}}</span></td>{{/if}}
+                </tr>
+                <tr>
+                    {{#if entity.er}}<td>er <span class="text-hidden">{{entity.er}}</span></td>{{/if}}
+                </tr>
+                <tr>
+                    <td class="text-hidden">{{entity.hilfsverb}} {{entity.partizip2}}</td>
+                </tr>
+                <tr>
+                    {{#if entity.praeteritum}}<td class="text-hidden">{{entity.praeteritum}}</td>{{/if}}
+                </tr>
+            </tbody>
         </table>
     </div>
 </div>

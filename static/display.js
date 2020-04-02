@@ -3,6 +3,13 @@ window.addEventListener('DOMContentLoaded', () => {
         document.getElementsByClassName('article')[0].addEventListener('click', () => {
             document.getElementsByClassName('color-hidden')[0].classList.remove('color-hidden');;
         });
+    document.querySelectorAll('.invisible').forEach(el => {
+        el.addEventListener('click', e => {
+            e.preventDefault();
+            e.stopImmediatePropagation();
+            el.classList.remove('invisible');
+        });
+    });
     document.querySelectorAll('.text-hidden').forEach(el => {
         el.addEventListener('click', () => {
             el.classList.remove('text-hidden');
