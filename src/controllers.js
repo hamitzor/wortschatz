@@ -3,6 +3,7 @@ const { createView } = require('./util');
 const view = createView('layout');
 const _ = require('underscore');
 const randomNumber = require("random-number-csprng");
+const querystring = require("querystring");
 
 exports.add = function (req, res) {
     const { collection } = req.params;
@@ -15,7 +16,8 @@ exports.add = function (req, res) {
     }
 };
 exports.update = function (req, res) {
-    const { collection, _id } = req.params;
+    let { collection, _id } = req.params;
+    _id = querystring.unescape(_id);
     try {
         database.update(collection, _id, req.body);
         res.redirect(`/word/display/${collection}/${_id}`);
@@ -25,7 +27,8 @@ exports.update = function (req, res) {
     }
 };
 exports.delete = function (req, res) {
-    const { collection, _id } = req.params;
+    let { collection, _id } = req.params;
+    _id = querystring.unescape(_id);
     try {
         database.delete(collection, _id);
         res.redirect(`/list/${collection}`);
@@ -35,7 +38,8 @@ exports.delete = function (req, res) {
     }
 };
 exports.displayView = function (req, res) {
-    const { collection, _id } = req.params;
+    let { collection, _id } = req.params;
+    _id = querystring.unescape(_id);
     res.send(view(`display-${collection}`)({
         entity: database.findOne(collection, _id),
         cssList: ['core', `display-${collection}`],
@@ -43,7 +47,8 @@ exports.displayView = function (req, res) {
     }));
 };
 exports.editView = function (req, res) {
-    const { collection, _id } = req.params;
+    let { collection, _id } = req.params;
+    _id = querystring.unescape(_id);
     res.send(view(`edit-${collection}`)({
         entity: database.findOne(collection, _id),
         cssList: ['core'],

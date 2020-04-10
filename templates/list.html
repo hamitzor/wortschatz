@@ -4,9 +4,9 @@
     <tbody>
         {{#each list}}
         <tr>
-            <td><a href="/word/display/{{../collection}}/{{_id}}">{{article}} {{_id}}</a></td>
-            <td><a href="/word/edit/{{../collection}}/{{_id}}">Edit</a></td>
-            <td><a href="/delete/{{../collection}}/{{_id}}">Delete</a></td>
+            <td><a href="/word/display/{{../collection}}/{{urlEncode _id}}">{{article}} {{_id}}</a></td>
+            <td><a href="/word/edit/{{../collection}}/{{urlEncode _id}}">Edit</a></td>
+            <td><a href="/delete/{{../collection}}/{{urlEncode _id}}">Delete</a></td>
         </tr>
         {{/each}}
     </tbody>
